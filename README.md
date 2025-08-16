@@ -16,7 +16,7 @@ My AI Projects (all open-sourced on GitHub)::
    IntentVCNet is a fine-tuned InternVL with LLaMA-Factory, earning second place in the [*IntentVC Challenge at ACM MM 2025*](https://www.aclweb.org/portal/content/intentvc-challenge-acm-mm-2025-intention-oriented-controllable-video-captioning) (Intention-Oriented Controllable Video Captioning), which resulted in a published ACM MM paper.
 4. [mRAG: Multimodal RAG - Paper Q&A System + Evaluation](https://github.com/yuki-2025/mRAG) </br>
     To address the issues of traditional RAG systems—long processing times caused by OCR and text chunking, poor recall quality, and reliance on text-only embeddings—we built an embedding–retrieval–Q&A pipeline based on Qwen2.5VL’s multimodal capabilities, created a synthetic dataset, and evaluated the system using an LLM as the judge.
-5. [NLP Research of LLM Embedding](https://github.com/yuki-2025/embedding_project) </br> In collaboration with the University of Chicago Booth School of Business, I developed, fine-tuned, and optimized LLMs to generate high quality business-domain embeddings enriched with broad general knowledge—enabling the extraction of CEO-level actionable insights for management and financial decision-making.
+5. [NLP Research: Fine-Tuned LLM Embeddings for Business Insights](https://github.com/yuki-2025/embedding_project) </br> In collaboration with the University of Chicago Booth School of Business, I developed, fine-tuned, and optimized LLMs to generate high quality business-domain embeddings enriched with broad general knowledge—enabling the extraction of CEO-level actionable insights for management and financial decision-making.
 6. More other project and paper. </br>
  
 
