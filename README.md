@@ -4,21 +4,25 @@
 -
 I’m a seasoned LLM research engineer, ML engineer/data scientist, and AI product manager with training in Applied Data Science at the University of Chicago. I specialize in LLMs, large multimodal models, and AI agents. I bridge academia and industry—as Senior Staff at an AI company and as an AI researcher at UChicago Booth and the Data Science Institute—turning peer-reviewed research into production systems and leading end-to-end AI implementations.
 
-💻 Expertise: AI Research & Large Language Models (LLM) 🤖• Large multimodal models (LMMs) 🎵 • Machine Learning & Deep Learning 📚 • Full-Stack GenAI Applications 💡 • AI Agents 🧠
+💻 Expertise: AI Research & Large Language Models (LLM)🤖  • Large multimodal models (LMMs)🎵  • Machine Learning & Deep Learning📚   • Full-Stack GenAI Applications💡  • AI Agents🧠
 
 My AI Projects (all open-sourced on GitHub)::
 -
-1. [Paper: AgentNet: Dynamically Graph Structure Selection for LLM-Based Multi-Agent System](https://github.com/yuki-2025/Dyna_Swarm). </br>
-   A dynamic, input-driven **multi-agent system (MAS)**, AgentNet, is introduced, executing over learned communication graphs (CoT, ToT, GoT). Advantage Actor–Critic (A2C) *reinforcement learning* is applied to learn a stable distribution over edges, and the base LLM (LoRA) is fine-tuned as a graph selector (**LLM-as-judge**) to choose the best topology per input. The approach achieves **state-of-the-art** (SOTA) performance on structured **reasoning** tasks (Crossword, Game-of-24, MMLU, BBH) and **code generation** (HumanEval), while maintaining latency comparable to CoT/ToT-style and static-swarm baselines. (Paper under review at EMNLP).
+1. [Paper: AgentNet: Dynamically Graph Structure Selection for LLM-Based Multi-Agent System](https://github.com/yuki-2025/Dyna_Swarm). 
+   <details>  <summary>A dynamic, input-driven **multi-agent system (MAS)**, AgentNet, is introduced, executing over learned communication graphs (CoT, ToT, GoT). Advantage Actor–Critic (A2C) *reinforcement learning* is applied to learn a stable distribution over edges, and the base LLM (LoRA) is fine-tuned as a graph selector (**LLM-as-judge**)</summary>
+    to choose the best topology per input. The approach achieves **state-of-the-art** (SOTA) performance on structured **reasoning** tasks (Crossword, Game-of-24, MMLU, BBH) and **code generation** (HumanEval), while maintaining latency comparable to CoT/ToT-style and static-swarm baselines. (Paper under review at EMNLP).
+   </details>
 2. [Paper: Medinotes: A Gen AI Framework for Medical Note Generation](https://github.com/yuki-2025/MediNotes).  </br>
    MediNotes is a **first-gen GenAI framework** that enhances clinical consultations by automating documentation and providing a **healthcare-domain–fine-tuned copilot** with retrieval-augmented generation (RAG), LLM and ambient listening. I developed and validated the system with clinicians at UChicago Medicine, culminating in **2 IEEE publications** and pilot deployments in live clinical environments.
 3. [Paper: IntentVCNet: Bridging Spatio-Temporal Gaps for Intention-Oriented Controllable Video Captioning](https://github.com/thqiu0419/IntentVCNet) </br>
    IntentVCNet is a fine-tuned InternVL with LLaMA-Factory, earning second place in the [*IntentVC Challenge at ACM MM 2025*](https://www.aclweb.org/portal/content/intentvc-challenge-acm-mm-2025-intention-oriented-controllable-video-captioning) (Intention-Oriented Controllable Video Captioning), which resulted in a published ACM MM paper.
 4. [mRAG: Multimodal RAG - Paper Q&A System + Evaluation](https://github.com/yuki-2025/mRAG) </br>
-    To address the issues of traditional RAG systems—long processing times caused by OCR and text chunking, poor recall quality, and reliance on text-only embeddings—I built an embedding–retrieval–Q&A pipeline based on Qwen2.5VL’s multimodal capabilities, created a synthetic dataset, and evaluated the system using an LLM as the judge.
+    To address the issues of traditional RAG systems—long processing times caused by OCR and text chunking, poor recall quality, and reliance on text-only embeddings—I built an embedding–retrieval–Q&A pipeline based on Qwen2.5VL’s multimodal capabilities, created a synthetic dataset, and evaluated the system using an **LLM as the judge**.
 5. [NLP Research: Fine-Tuned LLM Embeddings for Business Insights](https://github.com/yuki-2025/embedding_project) </br> In collaboration with the University of Chicago Booth School of Business, I developed, fine-tuned, and optimized LLMs to generate high quality business-domain embeddings enriched with broad general knowledge—enabling the extraction of CEO-level actionable insights for management and financial decision-making.
-6. More other project and paper. </br>
+<details>  <summary>More other projects and papers</summary> 
  
+   
+</details>
 
 ## 🛠️ Tech Stack
 
