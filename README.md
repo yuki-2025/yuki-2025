@@ -29,21 +29,18 @@ This project involves **fine-tuning Llama3 8b** to generate **JSON formats** for
    Built an AI-powered RAG hybrid search recommendation system using RAG that lets customers search products with filters like price. Implemented with **LangChain, LLMs, and pgvector in PostgreSQL** to segment product descriptions, generate embeddings, and deliver relevant recommendations.
    9. [Agentic RAG](https://github.com/yuki-2025/RAG_projects/blob/main/notebooks/en/agent_rag.ipynb)
       Built an Agentic RAG workflow with **smolagents**, wrapping retrieval as an agent tool for dynamic document search, compared against *standard RAG (embedding + FAISS + LLM)*, and evaluated with **LLM-as-a-Judge**.
-   
    11. Computer Vision (CV) collection <br> 
       ✦ [Style Transfer:](https://github.com/yuki-2025/cv_workshops/blob/main/style_transfer.ipynb) Implementing style transfer with TensorFlow/Keras <br>
       ✦ [MLflow:](https://github.com/yuki-2025/cv_workshops/blob/main/MLFlow.ipynb) Tutorial on using MLflow for experiment tracking <br>
       ✦ [Image Search RAG:](https://github.com/yuki-2025?page=2&tab=repositories) Image-based search system using RAG with Qdrant and Streamlit (search images by image input) <br>
       ✦ [Roboflow](https://github.com/yuki-2025/Roboflow): Step-by-step guide to annotating images and training a coin-detection model on Roboflow <br>
       ✦ [Aircraft Detection:](https://github.com/yuki-2025/CV_AircraftDetection) Training a YOLO model for military aircraft detection and model evaluation <br>
-   
-   12. Reproduced SOTA Research Papers
+   12. Reproduced SOTA Research Papers <br> 
       ✦ Stanford Alpaca 7B – [dataset curation](https://github.com/yuki-2025/Reproduce_Paper/blob/main/DataMaker_for_Alpaca_style_custom_dataset.ipynb) and [instruction tuning of LLaMA](https://github.com/yuki-2025/Reproduce_Paper/blob/main/Alpaca_%2B_Llama_3_8b_full_example.ipynb) to achieve GPT-3.5-comparable performance. <br>
       ✦ [LLaVA](https://yuki-blog1.vercel.app/article/llava) – full training workflow to reproduce the multimodal model.<br>
       ✦ [LLaVA + RAG](https://github.com/yuki-2025/Reproduce_Paper/blob/main/Inference_with_LLaVa_for_multimodal_generation.ipynb) – semi-structured and multimodal retrieval-augmented generation. <br>
       ✦ [NanoGPT](https://github.com/yuki-2025/Reproduce_Paper/blob/main/gpt_dev.ipynb) – training a GPT model from scratch to understand Transformer internals. <br>
       ✦ [RAFT](https://github.com/yuki-2025/Reproduce_Paper/blob/main/RAFT_Finetuning_Starling7b.ipynb) – combining fine-tuning and RAG for improved retrieval performance. <br>
-
    13. Recommendation System <br>
       ✦ [Instacart Market Basket Analysis using PySpark](https://github.com/yuki-2025/recommendation-system/blob/main/Instacart-AssociationMining%20%281%29.ipynb) 
       Developed a scalable **market-basket analysis pipeline** on Instacart order data using **PySpar**k MLlib’s FPGrowth. Processed millions of transactions to extract **frequent itemsets** (≥1% support) and generated **association rules** (≥20% confidence, lift >1.5) for **co-purchase recommendations** (“customers who bought X also bought Y”).<br>
@@ -51,7 +48,6 @@ This project involves **fine-tuning Llama3 8b** to generate **JSON formats** for
       Use PySpark to load and clean the data, train an **ALS model**, and Generate Top-10 movie recommendations for all users. Provide Top-10 recommendations for a specified subset of users. Identify the most likely users for a given set of movies.Make rating predictions and evaluate the model performance using RMSE.<br>
       ✦ [Two-Tower Recommendation System](https://github.com/yuki-2025/recommendation-system/blob/main/two_tower_final.ipynb)
         Use PySpark and **Spark SQL to clean**, join, and engineer user–item interaction features at scale. Encode movie titles with **SentenceTransformer** and load **user/item** metadata into **pandas** for downstream processing. Build and train a **Two-Tower neural network** in **PyTorch** that learns *user and item embeddings* via **contrastive loss**. Persist item embeddings in **Redis** as a vector database and leverage RedisVL for approximate **nearest-neighbor search** to return Top-K movie recommendations.<br>
-   
    14. Useful apps and tools:
        - [Video_subtitle_generater:](https://github.com/yuki-2025/video_subtitle) Generate subtitles from an audio/video file, using OpenAI's Whisper model. Support multiple language.I take notes when learning from videos. It’s handy to have transcripts, and capturing that data is also useful for model training.
        - [Google Drive Helper:](https://github.com/yuki-2025/google_drive_helper ) The code I always use in my project when come to Google Cloud Platform. Instantly delete files, download them, edit permissions, and transfer ownership in bulk – all in just a few seconds.
