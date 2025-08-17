@@ -6,23 +6,59 @@ I’m a seasoned LLM research engineer, ML engineer/data scientist, and AI produ
 
 💻 Expertise: AI Research & Large Language Models (LLM)🤖  • Large multimodal models (LMMs)🎵  • Machine Learning & Deep Learning📚   • Full-Stack GenAI Applications💡  • AI Agents🧠
 
-My AI Projects (all open-sourced on GitHub)::
+My AI Projects (all open-sourced on GitHub):
 -
 1. [Paper: AgentNet: Dynamically Graph Structure Selection for LLM-Based Multi-Agent System](https://github.com/yuki-2025/Dyna_Swarm). 
    <details>  <summary>A dynamic, input-driven **multi-agent system (MAS)**, AgentNet, is introduced, executing over learned communication graphs (CoT, ToT, GoT). Advantage Actor–Critic (A2C) *reinforcement learning* is applied to learn a stable distribution over edges, and the base LLM (LoRA) is fine-tuned as a graph selector (**LLM-as-judge**)</summary>
-    to choose the best topology per input. The approach achieves **state-of-the-art** (SOTA) performance on structured **reasoning** tasks (Crossword, Game-of-24, MMLU, BBH) and **code generation** (HumanEval), while maintaining latency comparable to CoT/ToT-style and static-swarm baselines. (Paper under review at EMNLP).
-   </details>
-2. [Paper: Medinotes: A Gen AI Framework for Medical Note Generation](https://github.com/yuki-2025/MediNotes).  </br>
-   MediNotes is a **first-gen GenAI framework** that enhances clinical consultations by automating documentation and providing a **healthcare-domain–fine-tuned copilot** with retrieval-augmented generation (RAG), LLM and ambient listening. I developed and validated the system with clinicians at UChicago Medicine, culminating in **2 IEEE publications** and pilot deployments in live clinical environments.
+    to choose the best topology per input. The approach achieves **state-of-the-art** (SOTA) performance on structured **reasoning** tasks (Crossword, Game-of-24, MMLU, BBH) and **code generation** (HumanEval), while maintaining latency comparable to CoT/ToT-style and static-swarm baselines. (Paper under review at EMNLP).</details>
+2. [Paper: Medinotes: A Gen AI Framework for Medical Note Generation](https://github.com/yuki-2025/MediNotes).  
+   MediNotes is a **first GenAI framework** that enhances clinical consultations by automating documentation and providing a **healthcare-domain–fine-tuned copilot** with retrieval-augmented generation (RAG), LLM and ambient listening. I developed and validated the system with clinicians at UChicago Medicine, culminating in **2 IEEE publications**.
 3. [Paper: IntentVCNet: Bridging Spatio-Temporal Gaps for Intention-Oriented Controllable Video Captioning](https://github.com/thqiu0419/IntentVCNet) </br>
    IntentVCNet is a fine-tuned InternVL with LLaMA-Factory, earning second place in the [*IntentVC Challenge at ACM MM 2025*](https://www.aclweb.org/portal/content/intentvc-challenge-acm-mm-2025-intention-oriented-controllable-video-captioning) (Intention-Oriented Controllable Video Captioning), which resulted in a published ACM MM paper.
 4. [mRAG: Multimodal RAG - Paper Q&A System + Evaluation](https://github.com/yuki-2025/mRAG) </br>
-    To address the issues of traditional RAG systems—long processing times caused by OCR and text chunking, poor recall quality, and reliance on text-only embeddings—I built an embedding–retrieval–Q&A pipeline based on Qwen2.5VL’s multimodal capabilities, created a synthetic dataset, and evaluated the system using an **LLM as the judge**.
+    To address the issues of traditional RAG systems—long processing times caused by OCR and text chunking, poor recall quality, and reliance on text-only embeddings—I built an embedding–retrieval–Q&A pipeline based on Qwen2.5VL’s **multimodal** capabilities, created a synthetic dataset, and evaluated the system using an **LLM as the judge**.
 5. [NLP Research: Fine-Tuned LLM Embeddings for Business Insights](https://github.com/yuki-2025/embedding_project) </br> In collaboration with the University of Chicago Booth School of Business, I developed, fine-tuned, and optimized LLMs to generate high quality business-domain embeddings enriched with broad general knowledge—enabling the extraction of CEO-level actionable insights for management and financial decision-making.
-<details>  <summary>More other projects and papers</summary> 
- 
+<details>
+  <summary>📂 More other projects and papers</summary>
+
+   6. [Uchicago AI Hackathon 2024](https://github.com/yuki-2025/Ai-hackathon)
+   Won 2nd place at the UChicago DSI AI Hackathon 2024 with a RAG medical Q&A chatbot. Built using **LangChain** for orchestration, **PostgreSQL** with vector embeddings for **hybrid search**, Streamlit for the front end, and **Google Cloud Vertex AI** to **fine-tune** and host **Llama 3-8B**, enabling secure access to patient records and general medical question answering.
+   7. [Fine-Tuning Llama 3-8B for Structured Math Reasoning](https://github.com/yuki-2025/llama3-8b-fine-tuning-math) 
+This project involves **fine-tuning Llama3 8b** to generate **JSON formats** for arithmetic questions and further post-process the output to perform calculations. This method incorporates the latest fine-tuning techniques such as **Qlora, Unsloth, and PEFT**. It enables faster training speeds and requires fewer computational resources.
+   8. [AI Salesman](https://github.com/yuki-2025/RAG_projects/blob/main/Recommendation_LLM.ipynb)
+   Built an AI-powered RAG hybrid search recommendation system using RAG that lets customers search products with filters like price. Implemented with LangChain, LLMs, and pgvector in PostgreSQL to segment product descriptions, generate embeddings, and deliver relevant recommendations..
+   9. [Agentic RAG](https://github.com/yuki-2025/RAG_projects/blob/main/notebooks/en/agent_rag.ipynb)
+      Built an Agentic RAG workflow with smolagents, wrapping retrieval as an agent tool for dynamic document search, compared against standard RAG (embedding + FAISS + LLM), and evaluated with LLM-as-a-Judge.
    
+   11. Computer Vision (CV) collection <br> 
+      ✦ [Style Transfer:](https://github.com/yuki-2025/cv_workshops/blob/main/style_transfer.ipynb) Implementing style transfer with TensorFlow/Keras <br>
+      ✦ [MLflow:](https://github.com/yuki-2025/cv_workshops/blob/main/MLFlow.ipynb) Tutorial on using MLflow for experiment tracking <br>
+      ✦ [Image Search RAG:](https://github.com/yuki-2025?page=2&tab=repositories) Image-based search system using RAG with Qdrant and Streamlit (search images by image input) <br>
+      ✦ [Roboflow](https://github.com/yuki-2025/Roboflow): Step-by-step guide to annotating images and training a coin-detection model on Roboflow <br>
+      ✦ [Aircraft Detection:](https://github.com/yuki-2025/CV_AircraftDetection) Training a YOLO model for military aircraft detection and model evaluation <br>
+   
+   12. [Reproduced SOTA Research Papers](https://github.com/yuki-2025/Reproduce_Paper)  
+      ✦ Stanford Alpaca 7B – [dataset curation](https://github.com/yuki-2025/Reproduce_Paper/blob/main/DataMaker_for_Alpaca_style_custom_dataset.ipynb) and [instruction tuning of LLaMA](https://github.com/yuki-2025/Reproduce_Paper/blob/main/Alpaca_%2B_Llama_3_8b_full_example.ipynb) to achieve GPT-3.5-comparable performance. <br>
+      ✦ [LLaVA](https://yuki-blog1.vercel.app/article/llava) – full training workflow to reproduce the multimodal model.<br>
+      ✦ [LLaVA + RAG](https://github.com/yuki-2025/Reproduce_Paper/blob/main/Inference_with_LLaVa_for_multimodal_generation.ipynb) – semi-structured and multimodal retrieval-augmented generation. <br>
+      ✦ [NanoGPT](https://github.com/yuki-2025/Reproduce_Paper/blob/main/gpt_dev.ipynb) – training a GPT model from scratch to understand Transformer internals. <br>
+      ✦ [RAFT](https://github.com/yuki-2025/Reproduce_Paper/blob/main/RAFT_Finetuning_Starling7b.ipynb) – combining fine-tuning and RAG for improved retrieval performance. <br>
+
+   13. Recommendation System <br>
+      ✦ [Instacart Market Basket Analysis using PySpark](https://github.com/yuki-2025/recommendation-system/blob/main/Instacart-AssociationMining%20%281%29.ipynb) 
+      Developed a scalable **market-basket analysis pipeline** on Instacart order data using **PySpar**k MLlib’s FPGrowth. Processed millions of transactions to extract **frequent itemsets** (≥1% support) and generated **association rules** (≥20% confidence, lift >1.5) for **co-purchase recommendations** (“customers who bought X also bought Y”).<br>
+      ✦ [Collaborative Filtering Recommendation](https://github.com/yuki-2025/recommendation-system/blob/main/MovieRecommender%20%281%29.ipynb)
+      Use PySpark to load and clean the data, train an **ALS model**, and Generate Top-10 movie recommendations for all users. Provide Top-10 recommendations for a specified subset of users. Identify the most likely users for a given set of movies.Make rating predictions and evaluate the model performance using RMSE.<br>
+      ✦ [Two-Tower Recommendation System](https://github.com/yuki-2025/recommendation-system/blob/main/two_tower_final.ipynb)
+        Use PySpark and **Spark SQL to clean**, join, and engineer user–item interaction features at scale. Encode movie titles with **SentenceTransformer** and load **user/item** metadata into **pandas** for downstream processing. Build and train a **Two-Tower neural network** in **PyTorch** that learns *user and item embeddings* via **contrastive loss**. Persist item embeddings in **Redis** as a vector database and leverage RedisVL for approximate **nearest-neighbor search** to return Top-K movie recommendations.<br>
+   
+   14. Useful apps and tools:
+       - [Video_subtitle_generater:](https://github.com/yuki-2025/video_subtitle) Generate subtitles from an audio/video file, using OpenAI's Whisper model. Support multiple language.I take notes when learning from videos. It’s handy to have transcripts, and capturing that data is also useful for model training.
+       - [Google Drive Helper:](https://github.com/yuki-2025/google_drive_helper ) The code I always use in my project when come to Google Cloud Platform. Instantly delete files, download them, edit permissions, and transfer ownership in bulk – all in just a few seconds.
+       - [Blockchain apps:](https://github.com/yuki-2025/blockchain) 2 apps that run smart contracts and blockchain routes to demonstrate key blockchain principles: decentralization, immutability, Proof of Work (PoW), and transparency
+
 </details>
+
 
 ## 🛠️ Tech Stack
 
