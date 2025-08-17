@@ -37,7 +37,7 @@ This project involves **fine-tuning Llama3 8b** to generate **JSON formats** for
       ✦ [Roboflow](https://github.com/yuki-2025/Roboflow): Step-by-step guide to annotating images and training a coin-detection model on Roboflow <br>
       ✦ [Aircraft Detection:](https://github.com/yuki-2025/CV_AircraftDetection) Training a YOLO model for military aircraft detection and model evaluation <br>
    
-   12. [Reproduced SOTA Research Papers](https://github.com/yuki-2025/Reproduce_Paper)  
+   12. Reproduced SOTA Research Papers
       ✦ Stanford Alpaca 7B – [dataset curation](https://github.com/yuki-2025/Reproduce_Paper/blob/main/DataMaker_for_Alpaca_style_custom_dataset.ipynb) and [instruction tuning of LLaMA](https://github.com/yuki-2025/Reproduce_Paper/blob/main/Alpaca_%2B_Llama_3_8b_full_example.ipynb) to achieve GPT-3.5-comparable performance. <br>
       ✦ [LLaVA](https://yuki-blog1.vercel.app/article/llava) – full training workflow to reproduce the multimodal model.<br>
       ✦ [LLaVA + RAG](https://github.com/yuki-2025/Reproduce_Paper/blob/main/Inference_with_LLaVa_for_multimodal_generation.ipynb) – semi-structured and multimodal retrieval-augmented generation. <br>
