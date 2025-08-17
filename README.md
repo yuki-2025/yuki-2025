@@ -26,9 +26,9 @@ My AI Projects (all open-sourced on GitHub):
    7. [Fine-Tuning Llama 3-8B for Structured Math Reasoning](https://github.com/yuki-2025/llama3-8b-fine-tuning-math) 
 This project involves **fine-tuning Llama3 8b** to generate **JSON formats** for arithmetic questions and further post-process the output to perform calculations. This method incorporates the latest fine-tuning techniques such as **Qlora, Unsloth, and PEFT**. It enables faster training speeds and requires fewer computational resources.
    8. [AI Salesman](https://github.com/yuki-2025/RAG_projects/blob/main/Recommendation_LLM.ipynb)
-   Built an AI-powered RAG hybrid search recommendation system using RAG that lets customers search products with filters like price. Implemented with LangChain, LLMs, and pgvector in PostgreSQL to segment product descriptions, generate embeddings, and deliver relevant recommendations..
+   Built an AI-powered RAG hybrid search recommendation system using RAG that lets customers search products with filters like price. Implemented with **LangChain, LLMs, and pgvector in PostgreSQL** to segment product descriptions, generate embeddings, and deliver relevant recommendations.
    9. [Agentic RAG](https://github.com/yuki-2025/RAG_projects/blob/main/notebooks/en/agent_rag.ipynb)
-      Built an Agentic RAG workflow with smolagents, wrapping retrieval as an agent tool for dynamic document search, compared against standard RAG (embedding + FAISS + LLM), and evaluated with LLM-as-a-Judge.
+      Built an Agentic RAG workflow with **smolagents**, wrapping retrieval as an agent tool for dynamic document search, compared against *standard RAG (embedding + FAISS + LLM)*, and evaluated with **LLM-as-a-Judge**.
    
    11. Computer Vision (CV) collection <br> 
       ✦ [Style Transfer:](https://github.com/yuki-2025/cv_workshops/blob/main/style_transfer.ipynb) Implementing style transfer with TensorFlow/Keras <br>
