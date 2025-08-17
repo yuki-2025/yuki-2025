@@ -1,4 +1,4 @@
-![Profile views](https://komarev.com/ghpvc/?username=yuki-2025&label=Profile%20views) [![GitHub followers](https://img.shields.io/github/followers/yuki-2025?label=Followers&logo=github)](https://github.com/yuki-2025?tab=followers) ![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://api.github-star-counter.workers.dev/user/yuki-2025&query=%24.stars&label=Stars&logo=github)
+![Profile views](https://komarev.com/ghpvc/?username=yuki-2025&label=Profile%20views)  ![Total Stars](https://img.shields.io/badge/dynamic/json?url=https://api.github-star-counter.workers.dev/user/yuki-2025&query=%24.stars&label=Stars&logo=github)
 
 🤗 Hi, I’m @yuki-2025
 -
@@ -133,7 +133,7 @@ This project involves **fine-tuning Llama3 8b** to generate **JSON formats** for
 <!---
 yuki-2025/yuki-2025 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
-
+[![GitHub followers](https://img.shields.io/github/followers/yuki-2025?label=Followers&logo=github)](https://github.com/yuki-2025?tab=followers)
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=yuki-2025&show_icons=true&theme=default&count_private=true) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuki-2025&layout=compact&theme=default)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yuki-2025&theme=default)
