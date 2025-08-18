@@ -6,7 +6,7 @@ I’m a seasoned LLM research engineer, ML engineer/data scientist, and AI produ
 
 💻 Expertise: AI Research & Large Language Models (LLM)🤖  • Large multimodal models (LMMs)🎵  • Machine Learning & Deep Learning📚   • Full-Stack GenAI Applications💡  • AI Agents🧠
 
-My AI Projects (all open-sourced on GitHub):
+My AI Projects (Open-sourced on GitHub):
 -
 1. [Paper: AgentNet: Dynamically Graph Structure Selection for LLM-Based Multi-Agent System](https://github.com/yuki-2025/Dyna_Swarm). 
    <details>  <summary>A dynamic, input-driven **multi-agent system (MAS)**, AgentNet, is introduced, executing over learned communication graphs (CoT, ToT, GoT). Advantage Actor–Critic (A2C) *reinforcement learning* is applied to learn a stable distribution over edges, and the base LLM (LoRA) is fine-tuned as a graph selector (**LLM-as-judge**)</summary>
